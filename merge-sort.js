@@ -1,7 +1,4 @@
 function mergeSort(arr){
-    if (!arr || !arr.length) {
-        return null;
-    }
     if (arr.length <= 1) {
         return arr;
     }
